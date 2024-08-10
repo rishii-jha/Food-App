@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contaniner {
+    width: 100%;
+    height: 100vh;
+    
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(50, 50, 179);
+}
+
+nav img {
+    position: relative;
+    left: 20px;
+    border-radius: 50%;
+    box-shadow: black 1px 1px 10px;
+    
+
+
+
+}
+
+nav ul {
+    display: flex;
+    gap: 80px;
+    list-style: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+nav ul li {
+    position: relative;
+    bottom: 7px;
+    left: 50px;
+    font-size: 15px;
+    font-weight: 700;
+    width: 80px;
+    height: 40px;
+    padding: 12px 16px;
+    background: rgb(30, 72, 199);
+    border-radius: 50px;
+
+    box-shadow: black 1px 1px 10px;
+
+}
+
+
+.icon-2 i {
+    cursor: pointer;
+    position: relative;
+    left: 130px;
+    width: 50px;
+    padding: 17px;
+
+    background-color: rgb(236, 230, 230);
+    border-radius: 50px;
+    box-shadow: 1px 1px 16px;
+
+}
+
+.icon-1 i {
+    position: relative;
+    left: 170px;
+
+    width: 50px;
+    padding: 17px;
+    cursor: pointer;
+
+    background: rgb(230, 220, 220);
+    border-radius: 50px;
+    box-shadow: 1px 1px 16px;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    position: relative;
+    top: 40px;
+    margin: 20px;
+    width: 300px;
+    height: 350px;
+    /* padding:  20px px; */
+    background: rgb(203, 206, 210);
+    border-radius: 20px;
+    box-shadow: 1px 1px 16px;
+    transition: o.3s ease-in;
+
+
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card img {
+    border-radius: 15px;
+}
+
+.card h1 {
+    position: relative;
+    padding: 10px;
+    left: 20px;
+    font-size: 26px;
+    font-weight: 600;
+
+}
+
+.card p {
+    padding: 0px 20px;
+    font-weight: 400;
+
+}
+
+.card button {
+    margin: 20px 15px;
+    padding: 15px;
+    width: 100px;
+    border-radius: 20px;
+    background: rgb(77, 77, 200);
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+
+
+.wrap-input-18 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.wrap-input-18 .search>div {
+    /* display: inline-block; */
+    position: relative;
+}
+
+.wrap-input-18 .search>div:after {
+    content: "";
+    background: rgb(222, 225, 228);
+    width: 4px;
+    height: 15px;
+    position: absolute;
+    top: 40px;
+    right: 2px;
+    transform: rotate(135deg);
+}
+
+.wrap-input-18 .search>div>input {
+    color: white;
+    font-size: 16px;
+    background: transparent;
+    width: 25px;
+    height: 15px;
+    padding: 10px;
+    border: solid 3px white;
+    outline: none;
+    border-radius: 35px;
+    transition: width 0.5s;
+}
+
+.wrap-input-18 .search>div>input::placeholder {
+    color: #efefef;
+    opacity: 0;
+    transition: opacity 150ms ease-out;
+}
+
+.wrap-input-18 .search>div>input:focus::placeholder {
+    opacity: 1;
+}
+
+.wrap-input-18 .search>div>input:focus,
+.wrap-input-18 .search>div>input:not(:placeholder-shown) {
+    width: 250px;
+}
+
+footer{
+     margin-top: 50px;
+    
+    width: 100%;
+    height: 150px;
+    background: rgb(102, 65, 224);
+
+    padding: 10px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+footer a{
+  text-decoration: none;
+  color: white;
+
+}
+footer ul{
+    cursor: pointer;
+    gap: 40px;
+    list-style: none;
+   
+}
+footer a:hover{
+    text-decoration: underline;
+    
+
+}
+
+.icons1{
+    position: relative;
+    left: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: rgb(62, 19, 106);
+    border-radius: 50px;
+    box-shadow: black 1px 1px 16px;
+}
+.icons2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: rgb(62, 19, 106);
+    border-radius: 50px;
+    box-shadow: black 1px 1px 16px;
+
+}
+
+.icons1:hover{
+    transform: scale(1.1);
+
+}
+.icons2:hover{
+    transform: scale(1.1);
+
+} 
+footer p{
+    color: white;
+    font-weight: 900;
+}
